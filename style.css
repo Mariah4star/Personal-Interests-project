@@ -1,0 +1,124 @@
+html {
+    background-color: #002137;
+  }
+  
+  h2{ 
+  margin: 0 px;
+  }
+  
+  #container{
+      margin: 0 auto;
+      width: 960px; 
+  }
+  
+  header{
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  
+  #tech img{
+    width: 150px; 
+    height: 150px;
+  }
+  
+  #bio{
+    display: flex;
+  }
+  
+  #bio img{
+    width: 300px;
+    height: 300px; 
+  }
+  
+  #bio-details { 
+   margin-left: 20px;
+    flex: 1;
+  }
+  
+  #namedate {
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #dev-list {
+    background-color: #484848; 
+    padding: 10px; 
+  }
+  
+  #dev-list > h3 {
+margin-top: 4px;
+font-size: 1.25em;
+  }
+
+  ul { 
+      font-size: 15px;
+list-style-position: inside;
+padding: 0;
+  }
+  
+  h2, time, h3, h4, figure {
+    color: #98effe;
+  }
+  
+  h3{
+      font-size: 1.75em;
+  }
+
+  h4{
+      font-size: 1.5em;
+      margin-top: 6px;
+  }
+
+  time {
+    font-size: 1.5em; 
+  }
+  li {
+    color: #c6c6c6; 
+    
+  }
+  
+  #tech { 
+    margin: 20px;
+  display: flex;
+    justify-content: space-between;
+  }
+  
+  figure {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    max-width: 180px;
+    
+  }
+  
+  figure img {
+    max-height: 180px; 
+  }
+  
+  figcaption {
+    color: white;
+    text-align: center;
+    max-width: 180px; 
+    background: rgba(3,3,3, 0.5);
+    position: relative;
+    bottom: 15px;
+    padding: 6px; 
+  }
+  
+#interests div {
+    background-color: #484848;
+    padding: 12px;
+}
+
+  #interests p {
+      color: #c6c6c6;
+  }
+  
+  footer {
+    color: #c6c6c6;
+    font-size: 1em;
+    text-align: center;
+  }
